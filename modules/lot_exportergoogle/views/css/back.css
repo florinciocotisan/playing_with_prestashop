@@ -1,0 +1,961 @@
+/**
+* 2018 Ecomdoo Software SRL
+*
+* @author Ecomdoo Software SRL (LOT.ai)
+* @copyright 2018 Ecomdoo Software SRL
+* @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0) 
+*/
+
+.moduleconfig-header h2 {
+    margin-top: 0px !important;
+}
+
+.moduleconfig-header .col-xs-12 {
+    margin-top: 20px;
+    border-top: solid 1px #ddd;
+}
+
+label {
+    font-size: 16px !important;
+}
+
+.bootstrap label {
+     font-size: 16px !important;
+}
+
+div.submit {
+    width: 100%;
+}
+
+#submitfeedformat {
+    background: #2eacce;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 10px;
+    float:left;
+}
+
+#exportfile {
+   background: #2eacce;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 10px; 
+    float:right;
+}
+
+
+#canceleditfeed {
+    background: #888;
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 4px 8px;
+    float: left;
+    margin-left: 30px;
+    border: none !important;
+    margin-top: 5px;
+}
+
+
+#feedcontentdiv button {
+  background: #2eacce;
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 2px 5px 2px 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+
+#txtfeedcontentdiv button {
+  background: #2eacce;
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 2px 5px 2px 5px;
+    margin-top: 10px;
+}
+
+#contenttexteditor {
+    display: none;
+    position: fixed;
+    border: solid 1px #000;
+    border-radius: 5px;
+    padding: 10px;
+    background: #fff;
+    z-index: 9;
+    margin-left: calc(50% - 260px);
+    top: 220px;
+}
+
+
+
+
+#contenttexteditor .submit {
+    margin-top: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+#contenttexteditor .submit button {
+    margin-right: 20px;
+     background: #2eacce;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+
+
+#editelemeditor {
+    display: none;
+    position: fixed;
+    border: solid 1px #000;
+    border-radius: 5px;
+    padding: 10px;
+    background: #fff;
+    z-index: 9;
+    margin-left: calc(50% - 260px);
+    top: 220px;
+}
+
+
+
+
+#editelemeditor .submit {
+    margin-top: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+#editelemeditor .submit button {
+    margin-right: 20px;
+     background: #2eacce;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+
+#addvalueeditor {
+    display: none;
+    position: absolute;
+    border: solid 1px #000;
+    border-radius: 5px;
+    padding: 10px;
+    background: #fff;
+    z-index: 9;
+    margin-left: calc(50% - 150px);
+}
+
+
+#addvalueeditor .submit {
+    margin-top: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+#addvalueeditor .submit button {
+    margin-right: 20px;
+     background: #2eacce;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+.variableconfigurator  {
+    display: none;
+    position: fixed;
+    border: solid 1px #000;
+    border-radius: 5px;
+    padding: 10px;
+    background: #fff;
+    z-index: 9999 !important;
+    width: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    top: 10%;
+}
+
+
+.variableconfigurator .submit {
+    margin-top: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.variableconfigurator .submit button {
+    margin-right: 20px;
+     background: #2eacce;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+
+
+
+#addvaluetexteditor {
+    display: none;
+    position: fixed;
+    border: solid 1px #000;
+    border-radius: 5px;
+    padding: 10px;
+    background: #fff;
+    z-index: 9992;
+    width: 400px;
+    margin-left: calc(50% - 300px);
+    top: 150px;
+}
+
+
+#addvaluetexteditor .submit {
+    margin-top: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+#addvaluetexteditor .submit button {
+    margin-right: 20px;
+     background: #2eacce;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+
+.innerelements {
+    position: relative;
+    margin-left: 30px;
+}
+
+.addelement {
+    position: relative;
+    margin-left: 0px;
+}
+
+.addvalue {
+    position: relative;
+    margin-right: 10px;
+}
+
+
+#mainaddvalue {
+    display: none;
+}
+
+
+#feedcontentdiv {
+    background: #f5f8f9;
+    padding: 15px 0px 15px 0px;
+    border-radius: 5px;
+    border: solid 1px #dee7ea;
+    font-size: 16px;
+}
+
+#csvfeedcontentdiv {
+    background: #f5f8f9;
+    padding: 15px 0px 15px 0px;
+    border-radius: 5px;
+    border: solid 1px #dee7ea;
+    font-size: 16px;
+    overflow-x: hidden;
+    display: none;
+}
+
+
+
+
+#txtfeedcontentdiv {
+    background: #f5f8f9;
+    padding: 15px 15px 15px 15px;
+    border-radius: 5px;
+    border: solid 1px #dee7ea;
+    font-size: 16px;
+    display: none;
+}
+
+#feedcontent {
+    display: none;
+}
+
+.removeelem {
+    cursor: pointer;
+}
+
+.removeelem img {
+    height: 13px;
+    width: auto;
+    margin-left: 5px;       
+}
+
+.editelem {
+    cursor: pointer;
+    margin-right: 5px; 
+}
+
+.editelem img {
+    height: 13px;
+    width: auto;
+    margin-left: 5px;       
+}
+
+
+
+#captabeldiv {
+    width: 4400px;
+    height: auto;
+    position: relative;
+    left: 0px;
+    margin-bottom: 30px;
+}
+
+.captabel {
+    position: relative;
+    float: left;
+    width: 200px !important;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+button.captabel {
+  background: #2eacce;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: none !important;
+    border-radius: 5px;  
+}
+
+.captabel::placeholder {
+   font-size: 10px; 
+}
+
+#csvfeedcontentdiv #btn_left {
+    margin-left: 10px;
+}
+
+#csvfeedcontentdiv #btn_right {
+    margin-right: 10px;
+}
+
+#csvfeedcontentdiv textarea {
+    height: 100px;
+}
+
+
+.sodseparator {
+    display: none;
+}
+
+.sodseparator select { 
+    width: 50px !important;
+}
+
+#feedtype { 
+    width: 100px !important;
+}
+
+.bootstrap label.csv {
+    display: none;
+}
+
+.bootstrap label.textbefore {
+    font-size: 12px !important;
+}
+
+.bootstrap label.textafter {
+    font-size: 12px !important;
+}
+
+.varelement {
+    margin-top: 20px;
+    float: left;
+}
+
+.configurevariable {
+    margin-bottom: 30px;
+    float: right;
+    background: #2eacce;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border:solid 1px #2eacce;
+}
+
+.clear {
+    clear: both !important;
+}
+
+.variableselector div.varsel {
+    position: relative;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width: calc(25% - 30px);
+}
+
+.variableselector div.varsel label {
+   font-size: 13px !important;
+}
+
+
+.variableselector div#mostpopular {
+     width: calc(50% - 30px);
+}
+
+#operator {
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+}
+
+#operatorvalue {
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+}
+
+
+#selectedvaluediv {
+   width: calc(50% - 30px);
+   float: left;
+}
+
+#formuladiv {
+   width: calc(50% - 30px);
+   float: left; 
+    margin-left: 30px;
+    margin-top: -4px;
+}
+
+
+#formuladiv button {
+    color: #2eacce;
+    font-weight: bold;
+}
+
+#formula {
+    display: none;
+    position: relative;
+    float: left;
+}
+
+
+
+#conditiondiv button {
+    color: #2eacce;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+
+#condition, #condition_2, #condition_3 {
+    display: none;
+    margin-top: 15px;
+    clear: both;
+    float: left;
+}
+
+
+#condition label, #condition_2 label, #condition_3 label {
+    width: auto !important;
+    float: left;
+    margin-left: 10px;
+    font-size: 12px !important;
+    padding-top: 5px !important;
+}
+
+#condition input, #condition_2 input, #condition_3 input {
+    width: 100px;
+    float: left;
+    margin-left: 10px;
+}
+
+#condition select, #condition_2 select, #condition_3 select {
+    width: 50px;
+    float: left;
+    margin-left: 10px;
+}
+
+.removecond {
+    top: 5px;
+    position: relative;
+    margin-left: 10px;
+}
+
+.variableconfigurator_bg {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: #000;
+    opacity: 0.7;
+    z-index: 999;
+    display: none;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    display: none;
+    clear: both;
+    width: 100%;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.variabilainput {
+    background: none;
+    float: left;
+    clear: both;
+    color: #000;
+    font-weight: 600;
+}
+
+.configurevariable {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.additional {
+    font-size: 12px !important;
+    cursor: pointer !important;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#additionalele_2 {
+    display: none;
+}
+
+#additionalele_3 {
+    display: none;
+}
+
+.texthide {
+    display: none;
+}
+
+
+#filterproducts label, #feedoptions label {
+    position: relative !important;
+    float: left !important;
+    width: auto !important;
+    margin-right: 10px !important;
+    font-size: 13px !important;
+    font-weight: normal !important;
+}
+
+#filterproducts select, #feedoptions select {
+    position: relative !important;
+    float: left !important;
+    width: auto !important;
+    margin-right: 10px !important;
+    font-size: 12px !important;
+}
+
+#filterproducts .clear, #feedoptions .clear {
+    height: 10px !important;
+}
+
+#filterproducts input, #feedoptions input {
+    position: relative !important;
+    float: left !important;
+    width: auto !important;
+    margin-right: 10px !important;
+    font-size: 12px !important;
+}
+
+
+#filterproducts .bootstrap-select, #feedoptions .bootstrap-select {
+    margin-right: 10px !important;
+    width: auto !important;
+    min-width: 200px !important;
+}
+
+#filterproducts button.dropdown-toggle, #feedoptions button.dropdown-toggle {
+text-transform: none !important;
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+    margin-top: -3px !important;
+}
+
+#filterproducts div.dropdown-menu, #feedoptions div.dropdown-menu {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.cc:before {
+ content:'---- ' !important;   
+}
+
+
+.ccc:before {
+ content:'---- ---- ' !important;   
+}
+
+.cccc:before {
+ content:'---- ---- ---- ' !important;   
+}
+
+.ccccc:before {
+ content:'---- ---- ---- ---- ' !important;   
+}
+
+
+#positionvalue {
+    display: none;
+    width: 60px !important;
+    position: relative;
+    float: left;
+    margin-left: 10px;
+}
+
+#positionvalue::placeholder {
+    font-size: 10px;
+}
+
+#selectedvalue {
+    float: left;
+}
+
+.campgol {
+    color: red;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: none;
+}
+
+.campgolvaloare {
+    color: red;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: none;
+}
+
+#limba {
+    width: 40px !important;
+    height: 25px !important;
+}
+
+
+input#feedname {
+    width: 300px !important;
+}
+
+
+#existingfeeds table th {
+    border-top: none !important;
+    background: #000 !important;
+    color: #fff !important;
+}
+
+#existingfeeds table td img {
+    cursor: pointer !important;
+}
+
+
+#feedsavedok {
+    display: none;
+    background: green;
+    width: 100%;
+    float: left;
+    position: relative;
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+
+#feedsavederror {
+    display: none;
+    background: red;
+    width: 100%;
+    float: left;
+    position: relative;
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;   
+}
+
+
+#deleteddok {
+    display: none;
+    background: green;
+    width: 100%;
+    float: left;
+    position: relative;
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+
+#deletederror {
+    display: none;
+    background: red;
+    width: 100%;
+    float: left;
+    position: relative;
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;   
+}
+
+.soddetelebtn {
+    margin-left: 40px;
+}
+
+.sodgetlinkbtn {
+    margin-left: 40px;
+}
+
+
+#existingfeeds td a {
+    margin-left: 10px;
+}
+
+.xmlelement:before {
+    content: '<';
+}
+
+.xmlelement:after {
+    content: '>';
+}
+
+
+.endxmlelement:before {
+    content: '</';
+}
+
+.endxmlelement:after {
+    content: '>';
+}
+
+#htmlnote {
+    display: none;
+    font-size: 12px;
+    font-weight: normal;
+    margin-left: 7px;
+}
+
+
+#lotmyProgress {
+    display: none;
+    width: 400px;
+    padding: 20px !important;
+    position: fixed;
+    border: solid 1px #000;
+    border-radius: 5px;
+    padding: 10px;
+    background: #fff;
+    z-index: 9;
+    top: 250px;
+    left: calc(50% - 100px);
+}
+
+#lotmyBarcontainer {
+    border: solid 1px #000;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#lotmyBar {
+  width: 1%;
+  height: 20px;
+  background-color: green;   
+}
+
+#lotmyBarNumbers {
+    font-size: 12px !important;
+    font-weight: bold;
+    text-align: right;
+    width: 100%;
+}
+
+
+#lotmyProgress label {
+    font-size: 12px !important;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+
+
+#viewfeed {
+    font-size: 14px !important;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+    display: none;
+}
+
+#closeprogress {
+    background: #000;
+    padding: 5px 7px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+#feedcontentdiv > #structure_1 > .subinner > .innerelements {
+margin-bottom: 30px;
+}
+
+#feedcontentdiv > #structure_1 > .subinner > .innerelements > .addelement  {
+    position: absolute !important;
+    bottom: -10px !important;
+    left: 0px !important;
+}
+
+#feedcontentdiv > #structure_1 > .subinner > .innerelements > .endxmlelement {
+    top: 25px !important;
+    position: relative !important;
+}
+
+#feedcontentdiv #mainaddelement {
+    margin-top: 25px !important;    
+}
+
+
+#lotmyProgress .finished {
+    display: none;
+}
+
+#lotmyProgress .emptymessage {
+    display: none;
+}
+
+#lotmyProgress.emptyfeed {
+    display: block;
+}
+
+#lotmyProgress.emptyfeed #viewfeed {
+    display: block;
+}
+
+#lotmyProgress.emptyfeed #viewfeed #closeprogress {
+    display: inline-block;
+}
+
+#lotmyProgress.emptyfeed #viewfeed a {
+    display: none;
+}
+
+#lotmyProgress.emptyfeed #lotmyBarcontainer {
+    display: none;
+}
+
+#lotmyProgress.emptyfeed .inprocess {
+    display: none;
+}
+
+#lotmyProgress.emptyfeed .emptymessage {
+    display: block;
+    color: #ef3939;
+}
+
+
+.smallinput {
+    width: 100px !important;
+}
+
+#cronlink {
+    margin-top: 20px;
+}
+
+#button_to_google_match {
+    margin-top: 20px;
+}
+
+#button_to_google_match button {
+    background: #42b4d2;
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+}
+
+tr.alertrow {
+    display: none;
+    background-color: #dcf4f9; 
+}
+
+tr.alertrow td {
+   background-color: #dcf4f9 !important;
+   padding: 12px !important;
+}
+
+tr.alertrow label {
+    font-size: 13px !important;
+}
+
+tr.alertrow input {
+    max-width: 650px !important;
+}
+
+
+.waiting {
+    position: relative;
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    display: none;
+}
+
+p.info {
+    font-size: 14px;
+    font-weight: bold;
+    color: #03aff0;
+}

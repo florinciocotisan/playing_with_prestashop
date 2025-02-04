@@ -1,0 +1,130 @@
+/**
+* 2018 Ecomdoo Software SRL
+*
+* @author Ecomdoo Software SRL (LOT.ai)
+* @copyright 2020 Ecomdoo Software SRL
+* @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0) 
+*/
+
+.category_tree {
+    border-bottom: solid 1px #ddd !important;
+    background: none !important;
+    padding: 10px !important;
+    padding-bottom: 20px !important;
+    margin-bottom: 20px !important;
+    padding-right: 80px !important;
+}
+
+
+.category_tree.multiple {
+    min-width: 364px !important;
+    clear: left !important;
+    margin-top: 2px !important;
+    border: solid 1px #03aff0 !important;
+    border-radius: 4px !important;
+    min-height: 200px;
+}
+
+
+.category_tree option {
+    cursor: pointer !important;
+    font-size: 14px !important;
+    width: auto !important;
+}
+
+.category_tree.multiple option::before {
+    content: '\f0c8' !important;
+    font-family: "FontAwesome" !important;
+    color: #ddd !important;
+    margin-right: 5px !important;
+}
+
+/*
+.category_tree.multiple option[selected="selected"]::before {
+    content: '\f14a' !important;
+    font-family: "FontAwesome";
+}
+*/
+
+
+.category_tree.multiple option.selected::before {
+    content: '\f14a' !important;
+    font-family: "FontAwesome" !important;
+    color: #000 !important;
+}
+
+
+.category_tree .cc {
+    margin-left: 20px;
+}
+
+.category_tree .ccc {
+    margin-left: 40px;
+    margin-right: 10px;
+    display: none;
+}
+
+.category_tree .cccc {
+    margin-left: 60px;
+    margin-right: 20px;
+    display: none;
+}
+
+.category_tree .ccccc {
+    margin-left: 80px;
+    margin-right: 30px;
+    display: none;
+}
+
+.category_tree option.withsubs::after {
+    content: '\f0dd' !important;
+    font-family: "FontAwesome" !important;
+    float: right;
+    margin-top: -2px;
+    color: #000;
+    font-size: 18px;
+}
+
+.category_tree option.withsubs.opened {
+    border-bottom: solid 1px #ddd;
+}
+
+.category_tree option.withsubs.opened::after {
+    content: '\f0de' !important;
+    margin-top: 6px !important;
+}
+
+
+.multiple_selection_box {
+    padding: 10px;
+    width: 300px;
+    border: solid 1px #03aff0;
+    border-radius: 4px;
+    float: left;
+    display: none;
+}
+
+.multiple_selection_box button {
+    background: #03aff0;
+    color: #fff;
+    border: solid 1px #03aff0;
+    padding: 2px 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    line-height: 22px;
+}
+
+.multiple_selection_box button .remove {
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Tahoma;
+    cursor: pointer;
+    color: #03aff0;
+}
+
+.multiple_selection_box button .remove::after {
+    content: "\f00d";
+    font-family: "FontAwesome";
+    color: #fff;
+}

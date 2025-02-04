@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>ecd_loginascustomer</name>
+    <displayName><![CDATA[Login as customer]]></displayName>
+    <version><![CDATA[1.0.0]]></version>
+    <description><![CDATA[Allow shop admin to login to customer account with an universal code]]></description>
+    <author><![CDATA[EcomdooSoftware.eu]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+	<confirmUninstall><![CDATA[Are you sure you want to uninstall this module?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+</module>

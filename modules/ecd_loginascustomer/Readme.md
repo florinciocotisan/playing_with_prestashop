@@ -1,0 +1,1 @@
+# This module allows you to display a pop-up with a message for visitors that use Internet Explorer older than Edge

@@ -1,0 +1,72 @@
+/**
+* 2020 Ecomdoo Software SRL
+*
+* @author Ecomdoo Software SRL (LOT.ai)
+* @copyright 2020 Ecomdoo Software SRL
+* @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+*/
+
+#whatsuporder {
+    position: relative;
+    float: left;
+    width: 100%;
+    background: none;
+    padding: 0px;
+    margin-top: 17px;
+    margin-bottom: 20px;
+    display: none;
+    clear: both;
+    text-align: center;
+    height: auto;
+    min-height: 35px;
+}
+
+#whatsuporder .alert.error {
+    margin: 0px !important;
+    color: #ef2809;
+}
+
+
+#whatsuporder a {
+    line-height: 22px;
+    position: relative;
+    float: none;
+    font-size: 16px;
+    color: #fff;
+    background: #57bb63 url(../img/icon.png) no-repeat 10px 9px;
+    background-size: 24px;
+    padding: 10px 15px;
+    box-shadow: 2px 2px 4px 0 rgba(0,0,0,.2);
+}
+
+#whatsuporder a span {
+    margin-left: 25px;
+    top: 0px;
+    position: relative;
+}
+
+
+#whatsuporder.centered {
+    z-index: 9;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#whatsuporder.centered a {
+   float: none; 
+}
+
+#whatsuporder.fixed {
+    position: fixed;
+    bottom: 0px;
+    margin: 0px;
+    left: 0px;
+    margin-bottom: 0px;
+    z-index: 9999999999999999;
+}
+
+#whatsuporder.fixed.centered {
+    margin-bottom: 10px;
+}
+
+

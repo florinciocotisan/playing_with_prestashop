@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>lot_exportergoogle</name>
+    <displayName><![CDATA[Exporter &amp; Feed Management for Google Merchant Center]]></displayName>
+    <version><![CDATA[1.1.0]]></version>
+    <description><![CDATA[This module allows you to export your products with for Google Merchant Center (xml,csv).]]></description>
+    <author><![CDATA[LOT.ai]]></author>
+    <tab><![CDATA[administration]]></tab>
+	<confirmUninstall><![CDATA[Sigur doresti dezinstalarea acestui modul?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+</module>
